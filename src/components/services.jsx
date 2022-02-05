@@ -3,10 +3,9 @@ export const Services = (props) => {
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Our Services</h2>
+          <h2>دوره های آموزشی</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            دوره های آموزشی که به صورت ویدئوها و کلاس های آنلاین در اختیار متقاضیان قرار می گیرد
           </p>
         </div>
         <div className='row'>
