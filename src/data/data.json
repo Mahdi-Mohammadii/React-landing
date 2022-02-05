@@ -1,10 +1,8 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph":  "دکتری کارآفرینی از دانشگاه آزاد اسلامی تهران و دانش آموخته رشته مهندسی صنایع از دانشگاه پلی تکنیک تهران در سطح کارشناس ارشد. از سال ۷۵ در زمینه رشته تحصیلی ام مشغول به کار شدم و از سال ۸۱ به صورت تخصصی در زمینه مدل های تعالی سازمانی و مدیریت استراتژیک فعالبت می نمایم. ارائه خدمات آموزشی و مشاوره ای در رابطه با تعالی سازمانی و تعیین نقشه راه تعالی در شرکت ها و کمک به شرکت ها برای ارتقاء خود و دستیابی به نتیاج برتر و نیز کسب جایگاه های مناسب در فرآبند جوایز ملی برای بنگاه های مختلف از مهمترین فعالیت های من طی سالهای گذشته بوده است.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
