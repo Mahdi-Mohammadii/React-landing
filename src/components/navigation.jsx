@@ -27,37 +27,37 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                مشاوره ها
               </a>
             </li>
+			<li>
+              <a href='#services' className='page-scroll'>
+                دوره ها
+              </a>
+			</li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                درباره من
               </a>
             </li>
-            <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
+            {/*<li>
               <a href='#portfolio' className='page-scroll'>
                 Gallery
               </a>
-            </li>
+            </li>*/}
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                مشتریان
               </a>
             </li>
-            <li>
+            {/*<li>
               <a href='#team' className='page-scroll'>
                 Team
               </a>
-            </li>
+            </li>*/}
             <li>
               <a href='#contact' className='page-scroll'>
-                Contact
+                ارتباط با من
               </a>
             </li>
           </ul>
