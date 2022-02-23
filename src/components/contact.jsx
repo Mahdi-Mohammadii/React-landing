@@ -27,11 +27,20 @@ export const Contact = (props) => {
       )
       .then(
         (result) => {
-          console.log(result.text)
-          clearState()
+          Swal.fire({
+            icon: "success",
+            title: "پیام با موفقیت ارسال شد",
+          });
+          e.target.reset();
+          setDisable(false);
         },
         (error) => {
-          console.log(error.text)
+          Swal.fire({
+            icon: "error",
+            title: "مشکل در برقراری اتصال",
+            text: error.text,
+          });
+          setDisable(false);
         }
       )
   }
