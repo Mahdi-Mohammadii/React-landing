@@ -66,7 +66,6 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "icon": "fa fa-comments-o",
       "title": "مهارت های نرم مدیریتی",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
