@@ -1,23 +1,25 @@
-import { useState } from 'react'
-import emailjs from 'emailjs-com'
+import { useState } from "react";
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 const initialState = {
-  name: '',
-  email: '',
-  message: '',
-}
+  name: "",
+  email: "",
+  message: "",
+};
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [{ name, email, message }, setState] = useState(initialState);
+  const [disable, setDisable] = useState(false);
 
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
-  }
-  const clearState = () => setState({ ...initialState })
+    const { name, value } = e.target;
+    setState((prevState) => ({ ...prevState, [name]: value }));
+  };
+  const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log(name, email, message)
+    setDisable(true);
+    e.preventDefault();
     emailjs
       .sendForm(
         "service_skesb7n",
@@ -42,109 +44,112 @@ export const Contact = (props) => {
           });
           setDisable(false);
         }
-      )
-  }
+      );
+  };
   return (
     <div>
-      <div id='contact'>
-        <div className='container'>
-          <div className='col-md-8'>
-            <div className='row'>
-              <div className='section-title'>
-                <h2>Get In Touch</h2>
+      <div id="contact">
+        <div className="container">
+          <div className="col-md-8">
+            <div className="row">
+              <div className="section-title">
+                <h2>ارتباط با من</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  لطفا نظرات، پیشنهادات و انتقادات خود را با ما درمیان بگذارید.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
-                <div className='row'>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
+              <form name="sentMessage" validate onSubmit={handleSubmit}>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-group">
                       <input
-                        type='text'
-                        id='name'
-                        name='name'
-                        className='form-control'
-                        placeholder='Name'
+                        type="email"
+                        id="email"
+                        name="email"
+                        className="form-control"
+                        placeholder="ایمیل"
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
+                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div className='col-md-6'>
-                    <div className='form-group'>
+                  <div className="col-md-6">
+                    <div className="form-group">
                       <input
-                        type='email'
-                        id='email'
-                        name='email'
-                        className='form-control'
-                        placeholder='Email'
+                        type="text"
+                        id="name"
+                        name="name"
+                        className="form-control"
+                        placeholder="نام و نام خانوادگی"
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
+                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
                 </div>
-                <div className='form-group'>
+                <div className="form-group">
                   <textarea
-                    name='message'
-                    id='message'
-                    className='form-control'
-                    rows='4'
-                    placeholder='Message'
+                    name="message"
+                    id="message"
+                    className="form-control"
+                    rows="4"
+                    placeholder="متن پیام"
                     required
                     onChange={handleChange}
                   ></textarea>
-                  <p className='help-block text-danger'></p>
+                  <p className="help-block text-danger"></p>
                 </div>
-                <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                <div id="success"></div>
+                <button
+                  type="submit"
+                  className="btn btn-custom btn-lg"
+                  disabled={disable}
+                >
+                  ارسال پیام
                 </button>
               </form>
             </div>
           </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
-            <div className='contact-item'>
-              <h3>Contact Info</h3>
+          <div className="col-md-3 col-md-offset-1 contact-info">
+            <div className="contact-item">
+              <h3>راه های ارتباطی دیگر</h3>
             </div>
-            <div className='contact-item'>
+            <div className="contact-item">
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
-                </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                  تلفن <i className="fa fa-phone"></i>
+                </span>{" "}
+                {props.data ? props.data.phone : "loading"}
               </p>
             </div>
-            <div className='contact-item'>
+            <div className="contact-item">
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
-                </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                  ایمیل <i className="fa fa-envelope-o"></i>
+                </span>{" "}
+                {props.data ? props.data.email : "loading"}
               </p>
             </div>
           </div>
-          <div className='col-md-12'>
-            <div className='row'>
-              <div className='social'>
+          <div className="col-md-12">
+            <div className="row">
+              <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
+                    <a href={props.data ? props.data.linkedin : "/"}>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
+                    <a href={props.data ? props.data.instagram : "/"}>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
+                    <a href={props.data ? props.data.youtube : "/"}>
+                      <i className="fa fa-youtube"></i>
                     </a>
                   </li>
                 </ul>
@@ -153,16 +158,16 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id='footer'>
-        <div className='container text-center'>
+      <div id="footer">
+        <div className="container text-center">
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
+            &copy; 2022 Powered by{" "}
+            <a href="https://www.linkedin.com/in/mahdi-mohammadi81">
+              Mahdi Mohammadi
             </a>
           </p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
