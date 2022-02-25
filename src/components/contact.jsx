@@ -119,7 +119,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  تلفن <i className="fa fa-phone"></i>
+                  تلفن <img src="img/icons/phone.png" />
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -127,7 +127,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  ایمیل <i className="fa fa-envelope-o"></i>
+                  ایمیل <img src="img/icons/gmail.png" />
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
@@ -139,17 +139,17 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.linkedin : "/"}>
-                      <i className="fa fa-linkedin"></i>
+                      <img src="img/icons/linkedin.png" />
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.instagram : "/"}>
-                      <i className="fa fa-instagram"></i>
+                      <img src="img/icons/instagram.png" />
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                      <img src="img/icons/youtube.png" />
                     </a>
                   </li>
                 </ul>
