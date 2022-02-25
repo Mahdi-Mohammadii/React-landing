@@ -64,62 +64,62 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "img": "img/icons/competence.png",
       "title": "مهارت های نرم مدیریتی",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "img": "img/icons/conversation.png",
       "title": "ارتباط موثر",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-group",
+      "img": "img/icons/teamwork.png",
       "title": "مهارت کار تیمی",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
+      "img": "img/icons/emotional-intelligence.png",
       "title": "هوش عاطفی",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-comments-o",
+      "img": "img/icons/language.png",
       "title": "ارتباط غیرکلامی و زبان بدن",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "img": "img/icons/stress-management.png",
       "title": "مدیریت استرس",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
+      "img": "img/icons/time.png",
       "title": "مدیریت زمان و جلسات",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-group",
+      "img": "img/icons/decision-making.png",
       "title": "تصمیم گیری و حل مسئله",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
+      "img": "img/icons/idea.png",
       "title": "خلاقیت و نواوری",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-comments-o",
+      "img": "img/icons/efficiency.png",
       "title": "تعالی سازمانی",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "img": "img/icons/strategy.png",
       "title": "مدیریت استراتژیک",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-group",
+      "img": "img/icons/csr.png",
       "title": "مسئولیت اجتماعی",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
@@ -187,22 +187,22 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "img": "img/icons/consultation.png",
       "title": "مشاوره",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "img": "img/icons/efficiency.png",
       "title": "تعالی سازمانی",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-group",
+      "img": "img/icons/strategy.png",
       "title": "مدیریت استراتژیک",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
+      "img": "img/icons/csr.png",
       "title": "مسئولیت اجتماعی",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
