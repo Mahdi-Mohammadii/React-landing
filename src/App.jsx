@@ -2,8 +2,10 @@ import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
+import { Coaching } from "./components/coaching";
 import { About } from "./components/about";
 import { Services } from "./components/services";
+import { ProSS } from "./components/proSoftSkill";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
@@ -14,7 +16,7 @@ import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
-  speedAsDuration: true,
+  speedAsDuration: true
 });
 
 const App = () => {
@@ -28,11 +30,13 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
-	  <Services data={landingPageData.Services} />
+      <Coaching data={landingPageData.Coaching} />
+      <Services data={landingPageData.softSkill} />
+      <ProSS data={landingPageData.proSoftSkill} />
       <About data={landingPageData.About} />
-		  {/* <Gallery data={landingPageData.Gallery}/> */}
+      {/* <Gallery data={landingPageData.Gallery}/> */}
       <Testimonials data={landingPageData.Testimonials} />
-		 {/* <Team data={landingPageData.Team} /> */}
+      {/* <Team data={landingPageData.Team} /> */}
       <Contact data={landingPageData.Contact} />
     </div>
   );

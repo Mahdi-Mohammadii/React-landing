@@ -62,66 +62,74 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Services": [
+  "softSkill": [
     {
-      "img": "img/icons/competence.png",
-      "title": "مهارت های نرم مدیریتی",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "ssImg": "img/icons/conversation.png",
+      "ssAlt": "communication",
+      "ssTitle": "ارتباط موثر",
+      "ssText": "آموزش شیوه‌های تعامل و انتقال و دریافت و درک پیام با دیگران در راستای افزایش توان هدایت، راهبری و نیز همکاری موثر با دیگران"
     },
     {
-      "img": "img/icons/conversation.png",
-      "title": "ارتباط موثر",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "ssImg": "img/icons/teamwork.png",
+      "ssAlt": "team work",
+      "ssTitle": "مهارت کار تیمی",
+      "ssText": "آموزش تیم سازی، رهبری تیمی، مدیریت تعارضات تیمی و انواع مهارتهای مورد نیاز برای آنکه بازیکن تیمی خوبی باشیم"
     },
     {
-      "img": "img/icons/teamwork.png",
-      "title": "مهارت کار تیمی",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "ssImg": "img/icons/emotional-intelligence.png",
+      "ssAlt": "emotional intelligence",
+      "ssTitle": "هوش هیجانی",
+      "ssText": "ارتقای سواد هیجانی شامل شناسایی و تنظیم و هدایت هیجانات در تعامل با خود و دیگران، توانایی شناخت هیجانات دیگران و تاثیرگذاری بر دیگران و ایجاد مهارت بکارگیری مناسب و صحیح آنها در موقعیت‌های مختلف"
     },
     {
-      "img": "img/icons/emotional-intelligence.png",
-      "title": "هوش عاطفی",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "ssImg": "img/icons/language.png",
+      "ssAlt": "body language",
+      "ssTitle": "ارتباط غیرکلامی و زبان بدن",
+      "ssText": "ارتقای مهارت مدیران و کارکنان برای بکارگیری مناسب مهارت خواندن پیامهای غیرکلامی دیگران و نیز افزایش اثربخشی ارتباطی از طریق ایفای تن گفتار و زبان بدن مناسب"
     },
     {
-      "img": "img/icons/language.png",
-      "title": "ارتباط غیرکلامی و زبان بدن",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "ssImg": "img/icons/stress-management.png",
+      "ssAlt": "stress management",
+      "ssTitle": "مدیریت استرس",
+      "ssText": "ارتقای عملکرد مدیران و کارکنان از طریق ارتقای مهارت شناسایی عوامل استرس زا در محیط کار و راهکارهایی برای مدیریت آنها"
     },
     {
-      "img": "img/icons/stress-management.png",
-      "title": "مدیریت استرس",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "ssImg": "img/icons/time.png",
+      "ssAlt": "time management",
+      "ssTitle": "مدیریت زمان و جلسات",
+      "ssText": "مهارت شناسایی سارقین زمان و تکنیکهای برنامه ریزی و استفاده از زمان به عنوان مهم‌ترین منبع ما و نیز مدیریت اثربخش جلسات با موقعیت‌ها و افراد مختلف"
     },
     {
-      "img": "img/icons/time.png",
-      "title": "مدیریت زمان و جلسات",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "ssImg": "img/icons/decision-making.png",
+      "ssAlt": "decision-making",
+      "ssTitle": "تصمیم گیری و حل مسئله",
+      "ssText": "ارتقای مهارت مدیران و کارکنان در شناسایی، درک و تعریف صحیح مسائل سازمانی و در ادامه تصمیم‌گیری و تکنیک‌های حل مساله"
     },
     {
-      "img": "img/icons/decision-making.png",
-      "title": "تصمیم گیری و حل مسئله",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "ssImg": "img/icons/idea.png",
+      "ssAlt": "creactivity",
+      "ssTitle": "خلاقیت و نواوری",
+      "ssText": "آموزش تکنیک‌های گوناگون برای پرورش مهارت خلاقیت و نوآوری و نیز توسعه تفکر ساختارشکنانه به منظور توسعه کسب و کار و سازمان"
+    }
+  ],
+  "proSoftSkill": [
+    {
+      "hsImg": "img/icons/efficiency.png",
+      "hsAlt": "EQFM",
+      "hsTitle": "تعالی سازمانی",
+      "hsText": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "img": "img/icons/idea.png",
-      "title": "خلاقیت و نواوری",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "hsImg": "img/icons/strategy.png",
+      "hsAlt": "strategy",
+      "hsTitle": "مدیریت استراتژیک",
+      "hsText": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "img": "img/icons/efficiency.png",
-      "title": "تعالی سازمانی",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "img": "img/icons/strategy.png",
-      "title": "مدیریت استراتژیک",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "img": "img/icons/csr.png",
-      "title": "مسئولیت اجتماعی",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "hsImg": "img/icons/csr.png",
+      "hsAlt": "CSR",
+      "hsTitle": "مسئولیت اجتماعی",
+      "hsText": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
   ],
   "Testimonials": [
@@ -187,24 +195,30 @@
   },
   "Features": [
     {
-      "img": "img/icons/consultation.png",
-      "title": "مشاوره",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
       "img": "img/icons/efficiency.png",
+      "alt": "EQFM",
       "title": "تعالی سازمانی",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "ارائه خدمات خود ارزیابی با رویکردهای گوناگون، تدوین اظهارنامه جوایز تعالی و آماده سازی برای حضور در فرایند جوایز تعالی"
     },
     {
       "img": "img/icons/strategy.png",
+      "alt": "strategy",
       "title": "مدیریت استراتژیک",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "ارائه خدمات برای تحلیل اکوسیستم سازمان و تحلیل نیازها و انتظارات ذینفعان و در ادامه تدوین اهداف، استراتژی‌ها و اقدامات و پروژه‌های مربوطه و نظارت بر اجرا"
     },
     {
       "img": "img/icons/csr.png",
+      "alt": "CSR",
       "title": "مسئولیت اجتماعی",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "ارائه خدمات مشاوره برای تعیین موضوعات اساسی شرکت‌ها (Material issue) در حوزه مسئولیت اجتماعی و ایجاد ساختار، استراتژی‌ها و برنامه‌های اجرایی در این رابطه و نیز ارائه خدمات تدوین گزارش پایداری مطابق چارچوب GRI"
+    }
+  ],
+  "Coaching": [
+    {
+      "img": "",
+      "alt": ".",
+      "title": "مربیگری مدیریتی",
+      "text": "ارائه خدمات مربی‌گری و همیاری به مدیران ارشد و میانی سازمان‌ها به منظور ارتقای عملکرد مدیریتی و بهبود مهارتهای نرم مدیریتی و کسب جایگاه مناسب‌تر در سازمان به عنوان یک عضو ارشد و تاثیرگذار در سازمان"
     }
   ]
 }

@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 const initialState = {
   name: "",
   email: "",
-  message: "",
+  message: ""
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
@@ -31,7 +31,7 @@ export const Contact = (props) => {
         (result) => {
           Swal.fire({
             icon: "success",
-            title: "پیام با موفقیت ارسال شد",
+            title: "پیام با موفقیت ارسال شد"
           });
           e.target.reset();
           setDisable(false);
@@ -40,7 +40,7 @@ export const Contact = (props) => {
           Swal.fire({
             icon: "error",
             title: "مشکل در برقراری اتصال",
-            text: error.text,
+            text: error.text
           });
           setDisable(false);
         }
@@ -119,7 +119,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  تلفن <img src="img/icons/phone.png" />
+                  تلفن <img src="img/icons/phone.png" alt="Phone" />
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -127,7 +127,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  ایمیل <img src="img/icons/gmail.png" />
+                  ایمیل <img src="img/icons/gmail.png" alt="Email" />
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
@@ -139,17 +139,17 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.linkedin : "/"}>
-                      <img src="img/icons/linkedin.png" />
+                      <img src="img/icons/linkedin.png" alt="Linkedin" />
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.instagram : "/"}>
-                      <img src="img/icons/instagram.png" />
+                      <img src="img/icons/instagram.png" alt="Instagram" />
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <img src="img/icons/youtube.png" />
+                      <img src="img/icons/youtube.png" alt="Youtube" />
                     </a>
                   </li>
                 </ul>
