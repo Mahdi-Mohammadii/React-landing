@@ -10,7 +10,7 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-md-3">
                   {" "}
-                  <i className={d.icon}></i>
+                  <img src={d.img} alt="..." />
                   <div className="feature-desc">
                     <h3>{d.title}</h3>
                     <p>{d.text}</p>
