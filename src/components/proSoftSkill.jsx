@@ -1,20 +1,22 @@
 export const ProSS = (props) => {
   return (
-    <div id="services" className="text-center" style={{ paddingTop: "0" }}>
-      <h3>دوره های پیشرفته مدیریتی</h3>
-      <div className="row">
+    <div id="pross" className="text-center">
+      <div className="container">
+        <div className="section-title">
+          <h3>دوره های پیشرفته مدیریتی</h3>
+        </div>
         {props.data
           ? props.data.map((d, i) => (
               <div key={`${d.hsName}-${i}`} className="col-md-4">
                 {" "}
                 <img src={d.hsImg} alt={d.hsAlt} />
-                <div className="service-desc">
+                <div className="feature-desc">
                   <h3>{d.hsTitle}</h3>
-                  <p>{d.hsText}</p>
+                  <p>{d.ssText}</p>
                 </div>
               </div>
             ))
-          : "loading"}
+          : "Loading..."}
       </div>
     </div>
   );
