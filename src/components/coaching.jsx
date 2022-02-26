@@ -10,14 +10,11 @@ export const Coaching = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-md">
                   {" "}
-                  <a href="#contact">
-                    {" "}
-                    <img src={d.img} alt={d.alt} />
-                    <div className="feature-desc">
-                      <h3>{d.title}</h3>
-                      <p>{d.text}</p>
-                    </div>
-                  </a>
+                  <img src={d.img} alt={d.alt} />
+                  <div className="feature-desc">
+                    <h3>{d.title}</h3>
+                    <p style={{ color: "#333" }}>{d.text}</p>
+                  </div>
                 </div>
               ))
             : "Loading..."}
